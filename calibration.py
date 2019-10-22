@@ -25,13 +25,14 @@ y_min=17000
 y_max=0
 
 
+trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
+trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
+trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
+trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
+trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
+trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
 
-trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
-trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
-trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
-trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
-trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
-trash=ser.readline() # a reading of serial that avoid initialisation bugs (because of only a part of the data arrived)
+
 
 while True:
     # reading part

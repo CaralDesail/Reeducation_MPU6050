@@ -23,7 +23,7 @@ while not done:
 
     print(list_of_limits)
 
-    texte = police.render(text_of_limits, True, pygame.Color("#F00F00"))
+    texte = police.render(text_of_limits, True, pygame.Color("#00FF00"))
     rectTexte = texte.get_rect()
 
     screen.fill((0, 0, 0))
@@ -32,7 +32,7 @@ while not done:
     color3 = (128,128 , 255)
     color4 = (128,0 , 128)
 
-    xmax_longueur=float(list_of_limits[0])/17000*1000
+    xmax_longueur=float(abs(float(list_of_limits[0])))/17000*1000
     xmin_longueur=float(abs(float(list_of_limits[1])))/17000*1000
     ymax_longueur=float(abs(float(list_of_limits[2])))/17000*1000
     ymin_longueur=float(abs(float(list_of_limits[3])))/17000*1000
